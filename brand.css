@@ -55,6 +55,26 @@
   object-position: center;
 }
 
+.turnkey-features {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin: 24px 0;
+}
+
+.turnkey-features span {
+  background: #fff;
+  border-left: 4px solid var(--orange);
+  padding: 14px 12px;
+  color: var(--navy);
+  font: 700 15px/1.25 Inter, sans-serif;
+}
+
+.turnkey-button {
+  padding: 14px 18px;
+  font-size: 13px;
+}
+
 footer {
   padding-top: 35px;
   padding-bottom: 35px;
@@ -83,6 +103,10 @@ footer {
 
   .turnkey-copy {
     padding: 45px 35px 28px;
+  }
+
+  .turnkey-features {
+    grid-template-columns: 1fr;
   }
 }
 
