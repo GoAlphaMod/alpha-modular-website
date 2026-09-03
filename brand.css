@@ -85,3 +85,50 @@ footer {
     padding: 45px 35px 28px;
   }
 }
+
+/* Brand refinements */
+.site-header .brand img {
+  width: 275px;
+  height: 68px;
+}
+
+.service-area {
+  position: relative;
+  overflow: hidden;
+}
+
+.service-area > div {
+  position: relative;
+  z-index: 1;
+}
+
+.wolf-watermark {
+  position: absolute;
+  width: 390px;
+  height: auto;
+  right: 4%;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: .055;
+  filter: brightness(0) invert(1);
+  pointer-events: none;
+}
+
+@media (max-width: 900px) {
+  .site-header .brand img {
+    width: 220px;
+    height: 56px;
+  }
+
+  .wolf-watermark {
+    width: 310px;
+    right: -40px;
+  }
+}
+
+@media (max-width: 560px) {
+  .site-header .brand img {
+    width: 185px;
+    height: 48px;
+  }
+}
