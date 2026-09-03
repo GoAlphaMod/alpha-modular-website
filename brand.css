@@ -88,8 +88,8 @@ footer {
 
 /* Brand refinements */
 .site-header .brand img {
-  width: 275px;
-  height: 68px;
+  width: 240px;
+  height: 70px;
 }
 
 .service-area {
@@ -116,8 +116,8 @@ footer {
 
 @media (max-width: 900px) {
   .site-header .brand img {
-    width: 220px;
-    height: 56px;
+    width: 205px;
+    height: 54px;
   }
 
   .wolf-watermark {
@@ -128,7 +128,7 @@ footer {
 
 @media (max-width: 560px) {
   .site-header .brand img {
-    width: 185px;
-    height: 48px;
+    width: 175px;
+    height: 46px;
   }
 }
