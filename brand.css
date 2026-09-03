@@ -321,6 +321,25 @@ footer::after {
   text-transform: uppercase;
 }
 
+.hp-field {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+}
+
+.quote-form button:disabled {
+  opacity: .65;
+  cursor: wait;
+}
+
+.form-success.form-error {
+  background: #fdeaea;
+  color: #8a2020;
+}
+
 @media (max-width: 900px) {
   .site-header {
     height: 82px;
