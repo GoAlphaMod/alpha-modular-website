@@ -128,12 +128,12 @@ footer {
 
 .wolf-watermark {
   position: absolute;
-  width: 390px;
+  width: 360px;
   height: auto;
-  right: 4%;
+  right: 7%;
   top: 50%;
   transform: translateY(-50%);
-  opacity: .055;
+  opacity: .1;
   filter: brightness(0) invert(1);
   pointer-events: none;
 }
@@ -145,8 +145,9 @@ footer {
   }
 
   .wolf-watermark {
-    width: 310px;
-    right: -40px;
+    width: 285px;
+    right: -30px;
+    opacity: .08;
   }
 }
 
