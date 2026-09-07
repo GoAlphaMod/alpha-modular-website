@@ -344,6 +344,61 @@ footer::after {
   color: #8a2020;
 }
 
+/* Temporary Labor Day treatment */
+.labor-day-banner {
+  min-height: 42px;
+  padding: 10px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  color: #fff;
+  background: linear-gradient(90deg, #9f1d2d 0 18%, #132b50 18% 82%, #9f1d2d 82% 100%);
+  border-bottom: 3px solid #fff;
+  text-align: center;
+  font-size: 13px;
+  letter-spacing: .5px;
+}
+
+.labor-day-banner strong {
+  font-size: 14px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+
+.labor-day-banner > span[aria-hidden="true"] {
+  color: #fff;
+  font-size: 12px;
+}
+
+body.labor-day .hero {
+  background: linear-gradient(135deg, #0e294d 0%, var(--navy) 58%, #351d2a 120%);
+}
+
+body.labor-day .site-header {
+  border-top-color: #b22234;
+}
+
+body.labor-day .trust-strip {
+  border-bottom: 3px solid #b22234;
+}
+
+@media (max-width: 560px) {
+  .labor-day-banner {
+    gap: 8px;
+    padding: 9px 14px;
+    font-size: 11px;
+  }
+
+  .labor-day-banner strong {
+    font-size: 12px;
+  }
+
+  .labor-day-message {
+    display: none;
+  }
+}
+
 @media (max-width: 900px) {
   .site-header {
     height: 82px;
